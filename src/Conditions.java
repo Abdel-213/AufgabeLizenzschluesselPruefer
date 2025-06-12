@@ -18,7 +18,7 @@ public class Conditions {
 
     public boolean regel3(String key) {
         String block1 = key.substring(0, 4);
-        int anzahlGrossbuchstaben = 0;
+        //int anzahlGrossbuchstaben = 0 ;
 
         for (int i = 0; i < block1.length(); i++) {
             char c = block1.charAt(i);

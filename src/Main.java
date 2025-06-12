@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -10,12 +10,15 @@ public class Main {
         // Eingabe der Schlüssel
         System.out.println(" Bitte gib deinen Schlüssel ein : ");
         String key = scanner.nextLine();
+        
         try {
             Pruefer condition = new Pruefer();
             condition.istLizenzGueltig(key);
         }catch (Exception e){
             System.out.println("Eingabe ist leer !! Bitte erneut versuchen");
         }
+        scanner.close();
+        System.out.println("Programm beendet.");
 
     }
 

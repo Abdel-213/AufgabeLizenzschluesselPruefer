@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+//import java.util.ArrayList; // wird nicht benutzt
 
 public class Pruefer {
     public boolean istLizenzGueltig(String key){
